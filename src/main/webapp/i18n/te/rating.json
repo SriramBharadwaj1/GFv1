@@ -1,0 +1,41 @@
+{
+  "groupfaceApp": {
+    "rating": {
+      "home": {
+        "title": "Ratings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Rating  సృష్టించండి",
+        "createOrEditLabel": "Rating సృష్టించండి లేదా సవరించండి",
+        "search": "Rating కొరకు శోధించండి",
+        "notFound": "No Ratings found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Rating సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Rating సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Rating తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Rating {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Rating"
+      },
+      "id": "Id",
+      "rating": "Rating",
+      "postId": "Post Id",
+      "isActive": "Is Active",
+      "apprRejReason": "Appr Rej Reason",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "orgId": "Org Id",
+      "approvedOn": "Approved On",
+      "rapostIdObj": "Rapost Id Obj",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "groupfaceApp": {
+    "rating": {
+      "home": {
+        "title": "Ratings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Rating",
+        "createOrEditLabel": "Create or edit a Rating",
+        "search": "Search for Rating",
+        "notFound": "No Ratings found"
+      },
+      "created": "A new Rating is created with identifier {{ param }}",
+      "updated": "A Rating is updated with identifier {{ param }}",
+      "deleted": "A Rating is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rating {{ id }}?"
+      },
+      "detail": {
+        "title": "Rating"
+      },
+      "id": "Id",
+      "rating": "Rating",
+      "postId": "Post Id",
+      "isActive": "Is Active",
+      "apprRejReason": "Appr Rej Reason",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "orgId": "Org Id",
+      "approvedOn": "Approved On",
+      "rapostIdObj": "Rapost Id Obj",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

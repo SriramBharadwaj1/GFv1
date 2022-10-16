@@ -1,0 +1,43 @@
+{
+  "groupfaceApp": {
+    "events": {
+      "home": {
+        "title": "Events",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Events बनाएँ",
+        "createOrEditLabel": "Events बनाएँ या संपादित करें",
+        "search": "Events खोजें",
+        "notFound": "No Events found"
+      },
+      "created": "एक नया Events [identifier: {{ param }}] तैयार है",
+      "updated": "एक Events [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Events [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Events [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Events"
+      },
+      "id": "Id",
+      "name": "Name",
+      "userId": "User Id",
+      "isActive": "Is Active",
+      "apprRejReason": "Appr Rej Reason",
+      "eventType": "Event Type",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "orgId": "Org Id",
+      "approvedOn": "Approved On",
+      "addedByUsr": "Added By Usr",
+      "updatedByUsr": "Updated By Usr",
+      "approvedByUsr": "Approved By Usr",
+      "userIdUsr": "User Id Usr",
+      "eventTypeObj": "Event Type Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

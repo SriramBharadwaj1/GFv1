@@ -1,0 +1,112 @@
+{
+  "applications": ["groupface"],
+  "changelogDate": "20221007081039",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "events",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "apprRejReason",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "eventType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isEnable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "addedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "addedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "orgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Events",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "addedByUsr",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "updatedByUsr",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "approvedByUsr",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "userIdUsr",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "codeval",
+      "otherEntityName": "masters",
+      "relationshipName": "eventTypeObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "organisation",
+      "relationshipName": "orgIdObj",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

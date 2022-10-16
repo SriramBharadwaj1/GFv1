@@ -1,0 +1,31 @@
+{
+  "groupfaceApp": {
+    "userPostsViewed": {
+      "home": {
+        "title": "User Posts Vieweds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Posts Viewed",
+        "createOrEditLabel": "Create or edit a User Posts Viewed",
+        "search": "Search for User Posts Viewed",
+        "notFound": "No User Posts Vieweds found"
+      },
+      "created": "A new User Posts Viewed is created with identifier {{ param }}",
+      "updated": "A User Posts Viewed is updated with identifier {{ param }}",
+      "deleted": "A User Posts Viewed is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Posts Viewed {{ id }}?"
+      },
+      "detail": {
+        "title": "User Posts Viewed"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "postid": "Postid",
+      "viewdate": "Viewdate",
+      "status": "Status",
+      "orgId": "Org Id",
+      "userIdObj": "User Id Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

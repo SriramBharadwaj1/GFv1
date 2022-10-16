@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity UserPostsViewed.
+    -->
+    <changeSet id="20221007081035-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="user_id_obj_id"
+                                 baseTableName="user_posts_viewed"
+                                 constraintName="fk_user_posts_viewed__user_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="org_id_obj_id"
+                                 baseTableName="user_posts_viewed"
+                                 constraintName="fk_user_posts_viewed__org_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="organisation"/>
+    </changeSet>
+</databaseChangeLog>

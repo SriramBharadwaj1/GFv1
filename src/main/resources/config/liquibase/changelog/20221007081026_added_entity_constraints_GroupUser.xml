@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity GroupUser.
+    -->
+    <changeSet id="20221007081026-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="added_by_user_id"
+                                 baseTableName="group_user"
+                                 constraintName="fk_group_user__added_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="updated_by_user_id"
+                                 baseTableName="group_user"
+                                 constraintName="fk_group_user__updated_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="approved_by_user_id"
+                                 baseTableName="group_user"
+                                 constraintName="fk_group_user__approved_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="group_id_obj_id"
+                                 baseTableName="group_user"
+                                 constraintName="fk_group_user__group_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="groups"/>
+
+        <addForeignKeyConstraint baseColumnNames="grp_user_obj_id"
+                                 baseTableName="group_user"
+                                 constraintName="fk_group_user__grp_user_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="user_type_obj_id"
+                                 baseTableName="group_user"
+                                 constraintName="fk_group_user__user_type_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="masters"/>
+
+        <addForeignKeyConstraint baseColumnNames="org_id_ob_id"
+                                 baseTableName="group_user"
+                                 constraintName="fk_group_user__org_id_ob_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="organisation"/>
+    </changeSet>
+</databaseChangeLog>

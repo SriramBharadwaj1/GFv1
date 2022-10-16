@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Friends.
+    -->
+    <changeSet id="20221007081027-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="added_by_user_id"
+                                 baseTableName="friends"
+                                 constraintName="fk_friends__added_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="updated_by_user_id"
+                                 baseTableName="friends"
+                                 constraintName="fk_friends__updated_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="approved_by_user_id"
+                                 baseTableName="friends"
+                                 constraintName="fk_friends__approved_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="user_id_obj_id"
+                                 baseTableName="friends"
+                                 constraintName="fk_friends__user_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="friend_id_obj_id"
+                                 baseTableName="friends"
+                                 constraintName="fk_friends__friend_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="org_id_obj_id"
+                                 baseTableName="friends"
+                                 constraintName="fk_friends__org_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="organisation"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,51 @@
+{
+  "groupfaceApp": {
+    "organisation": {
+      "home": {
+        "title": "Organisations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Organisation  సృష్టించండి",
+        "createOrEditLabel": "Organisation సృష్టించండి లేదా సవరించండి",
+        "search": "Organisation కొరకు శోధించండి",
+        "notFound": "No Organisations found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Organisation సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Organisation సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Organisation తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Organisation {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Organisation"
+      },
+      "id": "Id",
+      "code": "Code",
+      "name": "Name",
+      "type": "Type",
+      "parentOrgId": "Parent Org Id",
+      "primaryContactId": "Primary Contact Id",
+      "orgHead": "Org Head",
+      "locationId": "Location Id",
+      "website": "Website",
+      "layout": "Layout",
+      "tableKy": "Table Ky",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "extraFields": "Extra Fields",
+      "buildFilePath": "Build File Path",
+      "shortName": "Short Name",
+      "vatNo": "Vat No",
+      "moduleKy": "Module Ky",
+      "hashCode": "Hash Code",
+      "hashCertificate": "Hash Certificate"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "applications": ["groupface"],
+  "changelogDate": "20221007081021",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "organisation",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "parentOrgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "primaryContactId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "orgHead",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "locationId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "website",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "layout",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tableKy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isEnable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "addedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "addedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "extraFields",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "buildFilePath",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "shortName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "vatNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "moduleKy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "hashCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hashCertificate",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Organisation",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

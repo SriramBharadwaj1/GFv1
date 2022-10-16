@@ -1,0 +1,44 @@
+{
+  "groupfaceApp": {
+    "friends": {
+      "home": {
+        "title": "Friends",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Friends",
+        "createOrEditLabel": "Create or edit a Friends",
+        "search": "Search for Friends",
+        "notFound": "No Friends found"
+      },
+      "created": "A new Friends is created with identifier {{ param }}",
+      "updated": "A Friends is updated with identifier {{ param }}",
+      "deleted": "A Friends is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Friends {{ id }}?"
+      },
+      "detail": {
+        "title": "Friends"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "friendId": "Friend Id",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "type": "Type",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "userIdObj": "User Id Obj",
+      "friendIdObj": "Friend Id Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

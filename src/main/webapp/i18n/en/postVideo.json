@@ -1,0 +1,45 @@
+{
+  "groupfaceApp": {
+    "postVideo": {
+      "home": {
+        "title": "Post Videos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Post Video",
+        "createOrEditLabel": "Create or edit a Post Video",
+        "search": "Search for Post Video",
+        "notFound": "No Post Videos found"
+      },
+      "created": "A new Post Video is created with identifier {{ param }}",
+      "updated": "A Post Video is updated with identifier {{ param }}",
+      "deleted": "A Post Video is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Post Video {{ id }}?"
+      },
+      "detail": {
+        "title": "Post Video"
+      },
+      "id": "Id",
+      "postid": "Postid",
+      "video": "Video",
+      "videopath": "Videopath",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "primVideo": "Prim Video",
+      "orgId": "Org Id",
+      "status": "Status",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "postidObj": "Postid Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

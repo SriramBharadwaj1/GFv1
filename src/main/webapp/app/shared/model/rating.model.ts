@@ -1,0 +1,27 @@
+import dayjs from 'dayjs';
+import { IPost } from 'app/shared/model/post.model';
+import { IUserMast } from 'app/shared/model/user-mast.model';
+import { IOrganisation } from 'app/shared/model/organisation.model';
+
+export interface IRating {
+  id?: number;
+  rating?: number | null;
+  postId?: number | null;
+  isActive?: number | null;
+  apprRejReason?: number | null;
+  isEnable?: number | null;
+  addedBy?: number | null;
+  addedOn?: string | null;
+  updatedBy?: number | null;
+  updatedOn?: string | null;
+  approvedBy?: number | null;
+  orgId?: number | null;
+  approvedOn?: string | null;
+  rapostIdObj?: IPost | null;
+  addedByUser?: IUserMast | null;
+  updatedByUser?: IUserMast | null;
+  approvedByUser?: IUserMast | null;
+  orgIdObj?: IOrganisation | null;
+}
+
+export const defaultValue: Readonly<IRating> = {};

@@ -1,0 +1,44 @@
+{
+  "groupfaceApp": {
+    "friends": {
+      "home": {
+        "title": "Friends",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Friends  సృష్టించండి",
+        "createOrEditLabel": "Friends సృష్టించండి లేదా సవరించండి",
+        "search": "Friends కొరకు శోధించండి",
+        "notFound": "No Friends found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Friends సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Friends సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Friends తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Friends {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Friends"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "friendId": "Friend Id",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "type": "Type",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "userIdObj": "User Id Obj",
+      "friendIdObj": "Friend Id Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

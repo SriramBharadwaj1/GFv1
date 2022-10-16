@@ -1,0 +1,50 @@
+import dayjs from 'dayjs';
+import { IOrganisation } from 'app/shared/model/organisation.model';
+import { IUserMast } from 'app/shared/model/user-mast.model';
+import { ILocation } from 'app/shared/model/location.model';
+
+export interface IAddress {
+  id?: number;
+  name?: string | null;
+  addressType?: number | null;
+  addressLn1?: string | null;
+  addressLn2?: string | null;
+  addressLn3?: string | null;
+  addressLn4?: string | null;
+  landmark?: string | null;
+  village?: number | null;
+  city?: number | null;
+  district?: number | null;
+  state?: number | null;
+  parentTableId?: number | null;
+  parentModuleKy?: number | null;
+  parentTableKy?: number | null;
+  pin?: string | null;
+  country?: number | null;
+  isActive?: number | null;
+  isEnable?: number | null;
+  addedBy?: number | null;
+  addedOn?: string | null;
+  updatedBy?: number | null;
+  updatedOn?: string | null;
+  approvedBy?: number | null;
+  approvedOn?: string | null;
+  comments?: string | null;
+  remarks?: string | null;
+  extraFields?: string | null;
+  zone?: number | null;
+  orgId?: number | null;
+  hist?: number | null;
+  column1?: string | null;
+  orgIdObj?: IOrganisation | null;
+  approvedByObj?: IUserMast | null;
+  addedByUser?: IUserMast | null;
+  updatedByUser?: IUserMast | null;
+  villageObj?: ILocation | null;
+  cityObj?: ILocation | null;
+  districtObj?: ILocation | null;
+  stateObj?: ILocation | null;
+  countryObj?: ILocation | null;
+}
+
+export const defaultValue: Readonly<IAddress> = {};

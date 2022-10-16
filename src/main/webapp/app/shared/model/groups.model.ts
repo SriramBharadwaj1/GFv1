@@ -1,0 +1,30 @@
+import dayjs from 'dayjs';
+import { IUserMast } from 'app/shared/model/user-mast.model';
+import { IOrganisation } from 'app/shared/model/organisation.model';
+
+export interface IGroups {
+  id?: number;
+  name?: string | null;
+  description?: string | null;
+  activitysId?: number | null;
+  groupType?: number | null;
+  isActive?: number | null;
+  isEnable?: number | null;
+  addedBy?: number | null;
+  addedOn?: string | null;
+  updatedBy?: number | null;
+  updatedOn?: string | null;
+  approvedBy?: number | null;
+  approvedOn?: string | null;
+  comments?: string | null;
+  remarks?: string | null;
+  orgId?: number | null;
+  validFrom?: string | null;
+  validTill?: string | null;
+  addedByUser?: IUserMast | null;
+  updatedByUser?: IUserMast | null;
+  approvedByser?: IUserMast | null;
+  orgIdObj?: IOrganisation | null;
+}
+
+export const defaultValue: Readonly<IGroups> = {};

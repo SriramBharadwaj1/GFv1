@@ -1,0 +1,83 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "groupface",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-scripts",
+        "version": "1.0.1"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "redis",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1660511390551,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "devServerPort": 9060,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": true,
+    "enableTranslation": true,
+    "entities": [
+      "Organisation",
+      "OrgDetails",
+      "UserMast",
+      "Address",
+      "Groups",
+      "GroupUser",
+      "Friends",
+      "PostPics",
+      "PostVideo",
+      "AutoPostAprvlUsrs",
+      "Masters",
+      "Caste",
+      "Location",
+      "Post",
+      "UserPostsViewed",
+      "Comment",
+      "Remarks",
+      "Rating",
+      "Events",
+      "UserActivity"
+    ],
+    "entitySuffix": "",
+    "gitCompany": "",
+    "gradleEnterpriseHost": "",
+    "jhiPrefix": "lap",
+    "jhipsterVersion": "7.9.3",
+    "jwtSecretKey": "YzYyOTgwNTdlYWZjMzk0ODg4ZTcyZjEwMWFhMzI2Y2UxN2IzMjgyZjA1OGQwY2UxYTcxNGYxZWY5YmE4MzRiZTQ1N2EzZmM5ODY3NDdjN2M1ZTFkMjQyY2RmM2YzZWY3YTI4MjRmOTRkYmZlZGUzMzgyYjI5NGY5MTI0MmNjMWU=",
+    "languages": ["en", "hi", "te"],
+    "lastLiquibaseTimestamp": 1665130240000,
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-scripts",
+        "version": "1.0.1"
+      }
+    ],
+    "packageFolder": "com/laptechnos/groupface",
+    "packageName": "com.laptechnos.groupface",
+    "pages": [],
+    "prodDatabaseType": "postgresql",
+    "reactive": false,
+    "searchEngine": "elasticsearch",
+    "serverPort": "9218",
+    "serviceDiscoveryType": "eureka",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": false,
+    "skipFakeData": false,
+    "skipUserManagement": false,
+    "testFrameworks": ["cucumber"],
+    "useSass": true,
+    "websocket": "spring-websocket",
+    "withAdminUi": true
+  }
+}

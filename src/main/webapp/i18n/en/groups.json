@@ -1,0 +1,45 @@
+{
+  "groupfaceApp": {
+    "groups": {
+      "home": {
+        "title": "Groups",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Groups",
+        "createOrEditLabel": "Create or edit a Groups",
+        "search": "Search for Groups",
+        "notFound": "No Groups found"
+      },
+      "created": "A new Groups is created with identifier {{ param }}",
+      "updated": "A Groups is updated with identifier {{ param }}",
+      "deleted": "A Groups is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Groups {{ id }}?"
+      },
+      "detail": {
+        "title": "Groups"
+      },
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "activitysId": "Activitys Id",
+      "groupType": "Group Type",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "validFrom": "Valid From",
+      "validTill": "Valid Till",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByser": "Approved Byser",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

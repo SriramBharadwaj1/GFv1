@@ -1,0 +1,118 @@
+{
+  "applications": ["groupface"],
+  "changelogDate": "20221007081029",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "post_video",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "postid",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "video",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "videopath",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isEnable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "addedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "addedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "primVideo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "orgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PostVideo",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "addedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "updatedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "approvedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "message",
+      "otherEntityName": "post",
+      "relationshipName": "postidObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "organisation",
+      "relationshipName": "orgIdObj",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

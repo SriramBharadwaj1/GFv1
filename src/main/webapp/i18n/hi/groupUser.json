@@ -1,0 +1,45 @@
+{
+  "groupfaceApp": {
+    "groupUser": {
+      "home": {
+        "title": "GroupUsers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Group User बनाएँ",
+        "createOrEditLabel": "Group User बनाएँ या संपादित करें",
+        "search": "Group User खोजें",
+        "notFound": "No Group Users found"
+      },
+      "created": "एक नया Group User [identifier: {{ param }}] तैयार है",
+      "updated": "एक Group User [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Group User [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Group User [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Group User"
+      },
+      "id": "Id",
+      "groupId": "Group Id",
+      "grpUser": "Grp User",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "userType": "User Type",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "groupIdObj": "Group Id Obj",
+      "grpUserObj": "Grp User Obj",
+      "userTypeObj": "User Type Obj",
+      "orgIdOb": "Org Id Ob"
+    }
+  }
+}

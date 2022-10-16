@@ -1,0 +1,44 @@
+{
+  "groupfaceApp": {
+    "postPics": {
+      "home": {
+        "title": "PostPics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Post Pics बनाएँ",
+        "createOrEditLabel": "Post Pics बनाएँ या संपादित करें",
+        "search": "Post Pics खोजें",
+        "notFound": "No Post Pics found"
+      },
+      "created": "एक नया Post Pics [identifier: {{ param }}] तैयार है",
+      "updated": "एक Post Pics [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Post Pics [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Post Pics [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Post Pics"
+      },
+      "id": "Id",
+      "postid": "Postid",
+      "pic": "Pic",
+      "picpath": "Picpath",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "status": "Status",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "postObj": "Post Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

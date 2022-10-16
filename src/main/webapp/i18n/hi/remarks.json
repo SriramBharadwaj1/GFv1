@@ -1,0 +1,47 @@
+{
+  "groupfaceApp": {
+    "remarks": {
+      "home": {
+        "title": "Remarks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Remarks बनाएँ",
+        "createOrEditLabel": "Remarks बनाएँ या संपादित करें",
+        "search": "Remarks खोजें",
+        "notFound": "No Remarks found"
+      },
+      "created": "एक नया Remarks [identifier: {{ param }}] तैयार है",
+      "updated": "एक Remarks [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Remarks [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Remarks [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Remarks"
+      },
+      "id": "Id",
+      "message": "Message",
+      "category": "Category",
+      "categoryName": "Category Name",
+      "meta": "Meta",
+      "postId": "Post Id",
+      "isActive": "Is Active",
+      "apprRejReason": "Appr Rej Reason",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "otherInfo": "Other Info",
+      "repostIdObj": "Repost Id Obj",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "groupfaceApp": {
+    "postPics": {
+      "home": {
+        "title": "Post Pics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Post Pics",
+        "createOrEditLabel": "Create or edit a Post Pics",
+        "search": "Search for Post Pics",
+        "notFound": "No Post Pics found"
+      },
+      "created": "A new Post Pics is created with identifier {{ param }}",
+      "updated": "A Post Pics is updated with identifier {{ param }}",
+      "deleted": "A Post Pics is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Post Pics {{ id }}?"
+      },
+      "detail": {
+        "title": "Post Pics"
+      },
+      "id": "Id",
+      "postid": "Postid",
+      "pic": "Pic",
+      "picpath": "Picpath",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "status": "Status",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "postObj": "Post Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

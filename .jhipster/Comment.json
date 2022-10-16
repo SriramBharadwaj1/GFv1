@@ -1,0 +1,124 @@
+{
+  "applications": ["groupface"],
+  "changelogDate": "20221007081036",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "comment",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "message",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "meta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "apprRejReason",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isEnable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "addedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "addedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "otherInfo",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Comment",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "message",
+      "otherEntityName": "post",
+      "otherEntityRelationshipName": "compost",
+      "relationshipName": "copostIdObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "addedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "updatedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "approvedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "organisation",
+      "relationshipName": "orgIdObj",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "elasticsearch",
+  "service": "serviceClass"
+}

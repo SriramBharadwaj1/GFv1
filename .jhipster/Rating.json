@@ -1,0 +1,104 @@
+{
+  "applications": ["groupface"],
+  "changelogDate": "20221007081038",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "rating",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "rating",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "postId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "apprRejReason",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isEnable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "addedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "addedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "orgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedOn",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Rating",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "message",
+      "otherEntityName": "post",
+      "otherEntityRelationshipName": "ratpost",
+      "relationshipName": "rapostIdObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "addedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "updatedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "approvedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "organisation",
+      "relationshipName": "orgIdObj",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "elasticsearch",
+  "service": "serviceClass"
+}

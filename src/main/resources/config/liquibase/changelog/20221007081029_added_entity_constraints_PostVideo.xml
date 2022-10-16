@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity PostVideo.
+    -->
+    <changeSet id="20221007081029-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="added_by_user_id"
+                                 baseTableName="post_video"
+                                 constraintName="fk_post_video__added_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="updated_by_user_id"
+                                 baseTableName="post_video"
+                                 constraintName="fk_post_video__updated_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="approved_by_user_id"
+                                 baseTableName="post_video"
+                                 constraintName="fk_post_video__approved_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="postid_obj_id"
+                                 baseTableName="post_video"
+                                 constraintName="fk_post_video__postid_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="post"/>
+
+        <addForeignKeyConstraint baseColumnNames="org_id_obj_id"
+                                 baseTableName="post_video"
+                                 constraintName="fk_post_video__org_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="organisation"/>
+    </changeSet>
+</databaseChangeLog>

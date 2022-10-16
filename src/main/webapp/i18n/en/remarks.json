@@ -1,0 +1,47 @@
+{
+  "groupfaceApp": {
+    "remarks": {
+      "home": {
+        "title": "Remarks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Remarks",
+        "createOrEditLabel": "Create or edit a Remarks",
+        "search": "Search for Remarks",
+        "notFound": "No Remarks found"
+      },
+      "created": "A new Remarks is created with identifier {{ param }}",
+      "updated": "A Remarks is updated with identifier {{ param }}",
+      "deleted": "A Remarks is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Remarks {{ id }}?"
+      },
+      "detail": {
+        "title": "Remarks"
+      },
+      "id": "Id",
+      "message": "Message",
+      "category": "Category",
+      "categoryName": "Category Name",
+      "meta": "Meta",
+      "postId": "Post Id",
+      "isActive": "Is Active",
+      "apprRejReason": "Appr Rej Reason",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "otherInfo": "Other Info",
+      "repostIdObj": "Repost Id Obj",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

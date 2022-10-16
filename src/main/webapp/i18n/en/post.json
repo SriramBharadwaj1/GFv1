@@ -1,0 +1,59 @@
+{
+  "groupfaceApp": {
+    "post": {
+      "home": {
+        "title": "Posts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Post",
+        "createOrEditLabel": "Create or edit a Post",
+        "search": "Search for Post",
+        "notFound": "No Posts found"
+      },
+      "created": "A new Post is created with identifier {{ param }}",
+      "updated": "A Post is updated with identifier {{ param }}",
+      "deleted": "A Post is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Post {{ id }}?"
+      },
+      "detail": {
+        "title": "Post"
+      },
+      "id": "Id",
+      "message": "Message",
+      "category": "Category",
+      "categoryName": "Category Name",
+      "meta": "Meta",
+      "tableKy": "Table Ky",
+      "isActive": "Is Active",
+      "actRejReason": "Act Rej Reason",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "type": "Type",
+      "isSalesPost": "Is Sales Post",
+      "salesCategory": "Sales Category",
+      "price": "Price",
+      "validFrom": "Valid From",
+      "validTill": "Valid Till",
+      "phoneArea": "Phone Area",
+      "phno": "Phno",
+      "videoGrp": "Video Grp",
+      "orgId": "Org Id",
+      "otherInfo": "Other Info",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj",
+      "ratpost": "Ratpost",
+      "rempost": "Rempost",
+      "compost": "Compost",
+      "id": "Id"
+    }
+  }
+}

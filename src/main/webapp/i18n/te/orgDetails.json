@@ -1,0 +1,39 @@
+{
+  "groupfaceApp": {
+    "orgDetails": {
+      "home": {
+        "title": "Org Details",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Org Details  సృష్టించండి",
+        "createOrEditLabel": "Org Details సృష్టించండి లేదా సవరించండి",
+        "search": "Org Details కొరకు శోధించండి",
+        "notFound": "No Org Details found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Org Details సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Org Details సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Org Details తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Org Details {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Org Details"
+      },
+      "id": "Id",
+      "orgId": "Org Id",
+      "name": "Name",
+      "type": "Type",
+      "keyName": "Key Name",
+      "keyValue": "Key Value",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "extraFields": "Extra Fields",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

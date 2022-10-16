@@ -1,0 +1,59 @@
+{
+  "groupfaceApp": {
+    "post": {
+      "home": {
+        "title": "Posts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Post बनाएँ",
+        "createOrEditLabel": "Post बनाएँ या संपादित करें",
+        "search": "Post खोजें",
+        "notFound": "No Posts found"
+      },
+      "created": "एक नया Post [identifier: {{ param }}] तैयार है",
+      "updated": "एक Post [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Post [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Post [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Post"
+      },
+      "id": "Id",
+      "message": "Message",
+      "category": "Category",
+      "categoryName": "Category Name",
+      "meta": "Meta",
+      "tableKy": "Table Ky",
+      "isActive": "Is Active",
+      "actRejReason": "Act Rej Reason",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "type": "Type",
+      "isSalesPost": "Is Sales Post",
+      "salesCategory": "Sales Category",
+      "price": "Price",
+      "validFrom": "Valid From",
+      "validTill": "Valid Till",
+      "phoneArea": "Phone Area",
+      "phno": "Phno",
+      "videoGrp": "Video Grp",
+      "orgId": "Org Id",
+      "otherInfo": "Other Info",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj",
+      "ratpost": "Ratpost",
+      "rempost": "Rempost",
+      "compost": "Compost",
+      "id": "Id"
+    }
+  }
+}

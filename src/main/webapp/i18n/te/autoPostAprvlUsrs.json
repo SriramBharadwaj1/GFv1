@@ -1,0 +1,43 @@
+{
+  "groupfaceApp": {
+    "autoPostAprvlUsrs": {
+      "home": {
+        "title": "Auto Post Aprvl Usrs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Auto Post Aprvl Usrs  సృష్టించండి",
+        "createOrEditLabel": "Auto Post Aprvl Usrs సృష్టించండి లేదా సవరించండి",
+        "search": "Auto Post Aprvl Usrs కొరకు శోధించండి",
+        "notFound": "No Auto Post Aprvl Usrs found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Auto Post Aprvl Usrs సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Auto Post Aprvl Usrs సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Auto Post Aprvl Usrs తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Auto Post Aprvl Usrs {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Auto Post Aprvl Usrs"
+      },
+      "id": "Id",
+      "apUserId": "Ap User Id",
+      "tableKy": "Table Ky",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "extraFields": "Extra Fields",
+      "user": "User",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

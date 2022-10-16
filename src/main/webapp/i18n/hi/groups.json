@@ -1,0 +1,45 @@
+{
+  "groupfaceApp": {
+    "groups": {
+      "home": {
+        "title": "Groups",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Groups बनाएँ",
+        "createOrEditLabel": "Groups बनाएँ या संपादित करें",
+        "search": "Groups खोजें",
+        "notFound": "No Groups found"
+      },
+      "created": "एक नया Groups [identifier: {{ param }}] तैयार है",
+      "updated": "एक Groups [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Groups [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Groups [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Groups"
+      },
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "activitysId": "Activitys Id",
+      "groupType": "Group Type",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "validFrom": "Valid From",
+      "validTill": "Valid Till",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByser": "Approved Byser",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "groupfaceApp": {
+    "events": {
+      "home": {
+        "title": "Events",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Events",
+        "createOrEditLabel": "Create or edit a Events",
+        "search": "Search for Events",
+        "notFound": "No Events found"
+      },
+      "created": "A new Events is created with identifier {{ param }}",
+      "updated": "A Events is updated with identifier {{ param }}",
+      "deleted": "A Events is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Events {{ id }}?"
+      },
+      "detail": {
+        "title": "Events"
+      },
+      "id": "Id",
+      "name": "Name",
+      "userId": "User Id",
+      "isActive": "Is Active",
+      "apprRejReason": "Appr Rej Reason",
+      "eventType": "Event Type",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "orgId": "Org Id",
+      "approvedOn": "Approved On",
+      "addedByUsr": "Added By Usr",
+      "updatedByUsr": "Updated By Usr",
+      "approvedByUsr": "Approved By Usr",
+      "userIdUsr": "User Id Usr",
+      "eventTypeObj": "Event Type Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

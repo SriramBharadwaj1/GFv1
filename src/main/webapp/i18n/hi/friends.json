@@ -1,0 +1,44 @@
+{
+  "groupfaceApp": {
+    "friends": {
+      "home": {
+        "title": "Friends",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Friends बनाएँ",
+        "createOrEditLabel": "Friends बनाएँ या संपादित करें",
+        "search": "Friends खोजें",
+        "notFound": "No Friends found"
+      },
+      "created": "एक नया Friends [identifier: {{ param }}] तैयार है",
+      "updated": "एक Friends [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Friends [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Friends [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Friends"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "friendId": "Friend Id",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "type": "Type",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "userIdObj": "User Id Obj",
+      "friendIdObj": "Friend Id Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

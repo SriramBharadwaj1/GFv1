@@ -1,0 +1,64 @@
+{
+  "groupfaceApp": {
+    "address": {
+      "home": {
+        "title": "Addresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Address",
+        "createOrEditLabel": "Create or edit a Address",
+        "search": "Search for Address",
+        "notFound": "No Addresses found"
+      },
+      "created": "A new Address is created with identifier {{ param }}",
+      "updated": "A Address is updated with identifier {{ param }}",
+      "deleted": "A Address is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Address {{ id }}?"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "id": "Id",
+      "name": "Name",
+      "addressType": "Address Type",
+      "addressLn1": "Address Ln 1",
+      "addressLn2": "Address Ln 2",
+      "addressLn3": "Address Ln 3",
+      "addressLn4": "Address Ln 4",
+      "landmark": "Landmark",
+      "village": "Village",
+      "city": "City",
+      "district": "District",
+      "state": "State",
+      "parentTableId": "Parent Table Id",
+      "parentModuleKy": "Parent Module Ky",
+      "parentTableKy": "Parent Table Ky",
+      "pin": "Pin",
+      "country": "Country",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "extraFields": "Extra Fields",
+      "zone": "Zone",
+      "orgId": "Org Id",
+      "hist": "Hist",
+      "column1": "Column 1",
+      "orgIdObj": "Org Id Obj",
+      "approvedByObj": "Approved By Obj",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "villageObj": "Village Obj",
+      "cityObj": "City Obj",
+      "districtObj": "District Obj",
+      "stateObj": "State Obj",
+      "countryObj": "Country Obj"
+    }
+  }
+}

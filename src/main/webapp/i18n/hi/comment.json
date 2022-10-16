@@ -1,0 +1,46 @@
+{
+  "groupfaceApp": {
+    "comment": {
+      "home": {
+        "title": "Comments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Comment बनाएँ",
+        "createOrEditLabel": "Comment बनाएँ या संपादित करें",
+        "search": "Comment खोजें",
+        "notFound": "No Comments found"
+      },
+      "created": "एक नया Comment [identifier: {{ param }}] तैयार है",
+      "updated": "एक Comment [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Comment [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Comment [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Comment"
+      },
+      "id": "Id",
+      "message": "Message",
+      "category": "Category",
+      "categoryName": "Category Name",
+      "meta": "Meta",
+      "postId": "Post Id",
+      "isActive": "Is Active",
+      "apprRejReason": "Appr Rej Reason",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "orgId": "Org Id",
+      "otherInfo": "Other Info",
+      "copostIdObj": "Copost Id Obj",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

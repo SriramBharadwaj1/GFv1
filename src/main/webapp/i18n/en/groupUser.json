@@ -1,0 +1,45 @@
+{
+  "groupfaceApp": {
+    "groupUser": {
+      "home": {
+        "title": "Group Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Group User",
+        "createOrEditLabel": "Create or edit a Group User",
+        "search": "Search for Group User",
+        "notFound": "No Group Users found"
+      },
+      "created": "A new Group User is created with identifier {{ param }}",
+      "updated": "A Group User is updated with identifier {{ param }}",
+      "deleted": "A Group User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Group User {{ id }}?"
+      },
+      "detail": {
+        "title": "Group User"
+      },
+      "id": "Id",
+      "groupId": "Group Id",
+      "grpUser": "Grp User",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "userType": "User Type",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "groupIdObj": "Group Id Obj",
+      "grpUserObj": "Grp User Obj",
+      "userTypeObj": "User Type Obj",
+      "orgIdOb": "Org Id Ob"
+    }
+  }
+}

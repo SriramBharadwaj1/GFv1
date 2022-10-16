@@ -1,0 +1,49 @@
+{
+  "groupfaceApp": {
+    "caste": {
+      "home": {
+        "title": "Castes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Caste बनाएँ",
+        "createOrEditLabel": "Caste बनाएँ या संपादित करें",
+        "search": "Caste खोजें",
+        "notFound": "No Castes found"
+      },
+      "created": "एक नया Caste [identifier: {{ param }}] तैयार है",
+      "updated": "एक Caste [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Caste [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Caste [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Caste"
+      },
+      "id": "Id",
+      "code": "Code",
+      "name": "Name",
+      "desc": "Desc",
+      "parentId": "Parent Id",
+      "moderatorId": "Moderator Id",
+      "parentTableKy": "Parent Table Ky",
+      "status": "Status",
+      "zone": "Zone",
+      "orgId": "Org Id",
+      "hist": "Hist",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "otherinfo": "Otherinfo",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByObj": "Approved By Obj",
+      "parentIdObj": "Parent Id Obj",
+      "orgIdObj": "Org Id Obj",
+      "id": "Id"
+    }
+  }
+}

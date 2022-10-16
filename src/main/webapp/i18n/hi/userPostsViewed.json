@@ -1,0 +1,31 @@
+{
+  "groupfaceApp": {
+    "userPostsViewed": {
+      "home": {
+        "title": "UserPostsVieweds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया User Posts Viewed बनाएँ",
+        "createOrEditLabel": "User Posts Viewed बनाएँ या संपादित करें",
+        "search": "User Posts Viewed खोजें",
+        "notFound": "No User Posts Vieweds found"
+      },
+      "created": "एक नया User Posts Viewed [identifier: {{ param }}] तैयार है",
+      "updated": "एक User Posts Viewed [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "User Posts Viewed [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "User Posts Viewed [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "User Posts Viewed"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "postid": "Postid",
+      "viewdate": "Viewdate",
+      "status": "Status",
+      "orgId": "Org Id",
+      "userIdObj": "User Id Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

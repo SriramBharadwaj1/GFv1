@@ -1,0 +1,54 @@
+{
+  "groupfaceApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Location बनाएँ",
+        "createOrEditLabel": "Location बनाएँ या संपादित करें",
+        "search": "Location खोजें",
+        "notFound": "No Locations found"
+      },
+      "created": "एक नया Location [identifier: {{ param }}] तैयार है",
+      "updated": "एक Location [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Location [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Location [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "id": "Id",
+      "code": "Code",
+      "name": "Name",
+      "desc": "Desc",
+      "parentId": "Parent Id",
+      "moderator1Id": "Moderator 1 Id",
+      "moderator2Id": "Moderator 2 Id",
+      "moderator1Code": "Moderator 1 Code",
+      "moderator2Code": "Moderator 2 Code",
+      "parentTableKy": "Parent Table Ky",
+      "type": "Type",
+      "status": "Status",
+      "zone": "Zone",
+      "orgId": "Org Id",
+      "hist": "Hist",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "otherinfo": "Otherinfo",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "moderator1IdUser": "Moderator 1 Id User",
+      "moderator2IdUser": "Moderator 2 Id User",
+      "parentIdObj": "Parent Id Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

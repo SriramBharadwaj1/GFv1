@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Address.
+    -->
+    <changeSet id="20221007081024-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="org_id_obj_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__org_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="organisation"/>
+
+        <addForeignKeyConstraint baseColumnNames="approved_by_obj_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__approved_by_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="added_by_user_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__added_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="updated_by_user_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__updated_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="village_obj_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__village_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="location"/>
+
+        <addForeignKeyConstraint baseColumnNames="city_obj_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__city_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="location"/>
+
+        <addForeignKeyConstraint baseColumnNames="district_obj_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__district_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="location"/>
+
+        <addForeignKeyConstraint baseColumnNames="state_obj_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__state_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="location"/>
+
+        <addForeignKeyConstraint baseColumnNames="country_obj_id"
+                                 baseTableName="address"
+                                 constraintName="fk_address__country_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="location"/>
+    </changeSet>
+</databaseChangeLog>

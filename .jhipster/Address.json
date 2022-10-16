@@ -1,0 +1,202 @@
+{
+  "applications": ["groupface"],
+  "changelogDate": "20221007081024",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "address",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "addressLn1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressLn2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressLn3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressLn4",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "landmark",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "village",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "district",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "parentTableId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "parentModuleKy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "parentTableKy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "pin",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isEnable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "addedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "addedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "extraFields",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "zone",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "orgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "hist",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "column1",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Address",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "organisation",
+      "relationshipName": "orgIdObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "approvedByObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "addedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "updatedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "location",
+      "relationshipName": "villageObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "location",
+      "relationshipName": "cityObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "location",
+      "relationshipName": "districtObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "location",
+      "relationshipName": "stateObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "location",
+      "relationshipName": "countryObj",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

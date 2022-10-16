@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Events.
+    -->
+    <changeSet id="20221007081039-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="added_by_usr_id"
+                                 baseTableName="events"
+                                 constraintName="fk_events__added_by_usr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="updated_by_usr_id"
+                                 baseTableName="events"
+                                 constraintName="fk_events__updated_by_usr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="approved_by_usr_id"
+                                 baseTableName="events"
+                                 constraintName="fk_events__approved_by_usr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="user_id_usr_id"
+                                 baseTableName="events"
+                                 constraintName="fk_events__user_id_usr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="usermaster"/>
+
+        <addForeignKeyConstraint baseColumnNames="event_type_obj_id"
+                                 baseTableName="events"
+                                 constraintName="fk_events__event_type_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="masters"/>
+
+        <addForeignKeyConstraint baseColumnNames="org_id_obj_id"
+                                 baseTableName="events"
+                                 constraintName="fk_events__org_id_obj_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="organisation"/>
+    </changeSet>
+</databaseChangeLog>

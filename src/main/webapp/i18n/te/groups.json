@@ -1,0 +1,45 @@
+{
+  "groupfaceApp": {
+    "groups": {
+      "home": {
+        "title": "Groups",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Groups  సృష్టించండి",
+        "createOrEditLabel": "Groups సృష్టించండి లేదా సవరించండి",
+        "search": "Groups కొరకు శోధించండి",
+        "notFound": "No Groups found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Groups సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Groups సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Groups తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Groups {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Groups"
+      },
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "activitysId": "Activitys Id",
+      "groupType": "Group Type",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "validFrom": "Valid From",
+      "validTill": "Valid Till",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByser": "Approved Byser",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

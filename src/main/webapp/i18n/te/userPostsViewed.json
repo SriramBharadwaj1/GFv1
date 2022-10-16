@@ -1,0 +1,31 @@
+{
+  "groupfaceApp": {
+    "userPostsViewed": {
+      "home": {
+        "title": "User Posts Vieweds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త User Posts Viewed  సృష్టించండి",
+        "createOrEditLabel": "User Posts Viewed సృష్టించండి లేదా సవరించండి",
+        "search": "User Posts Viewed కొరకు శోధించండి",
+        "notFound": "No User Posts Vieweds found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త User Posts Viewed సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త User Posts Viewed సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త User Posts Viewed తొలగించబడినది",
+      "delete": {
+        "question": "మీరు User Posts Viewed {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "User Posts Viewed"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "postid": "Postid",
+      "viewdate": "Viewdate",
+      "status": "Status",
+      "orgId": "Org Id",
+      "userIdObj": "User Id Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "applications": ["groupface"],
+  "changelogDate": "20221007081023",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "usermaster",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "activatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "activatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dob",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneArea",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phno",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestDt",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "caste",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "subCaste",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "validID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "validIDType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "validIDNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "validValidTill",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "refferedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "relationwith",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "relationType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "issuingCountry",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "otherInfo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "allergicDrug1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "moduleKy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "tableKy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "allergicDrug2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "extraFields",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "column1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "column2",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "column3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hobbies",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "otherActivities",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "role",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "path",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "roleType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "addedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "language",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hist",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "layout",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "securityKeyStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hashCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "encryptionStatus",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "encryptedPassword",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "zone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "job",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "presentAddress",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "permanentAddress",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "workcompany",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "workAddress",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserMast",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "organisation",
+      "relationshipName": "orgIdObj",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

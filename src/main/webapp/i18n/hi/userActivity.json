@@ -1,0 +1,40 @@
+{
+  "groupfaceApp": {
+    "userActivity": {
+      "home": {
+        "title": "UserActivities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया User Activity बनाएँ",
+        "createOrEditLabel": "User Activity बनाएँ या संपादित करें",
+        "search": "User Activity खोजें",
+        "notFound": "No User Activities found"
+      },
+      "created": "एक नया User Activity [identifier: {{ param }}] तैयार है",
+      "updated": "एक User Activity [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "User Activity [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "User Activity [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "User Activity"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "loggedon": "Loggedon",
+      "activeduration": "Activeduration",
+      "ipAdr": "Ip Adr",
+      "usrLocation": "Usr Location",
+      "lat": "Lat",
+      "longi": "Longi",
+      "pin": "Pin",
+      "addedBy": "Added By",
+      "orgId": "Org Id",
+      "addedOn": "Added On",
+      "addedByUser": "Added By User",
+      "userObj": "User Obj",
+      "addedByUseract": "Added By Useract",
+      "orgIdObj": "Org Id Obj",
+      "useractObj": "Useract Obj"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "applications": ["groupface"],
+  "changelogDate": "20221007081034",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "post",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "message",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "meta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tableKy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "actRejReason",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isEnable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "addedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "addedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "updatedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "approvedOn",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isSalesPost",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "salesCategory",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "validFrom",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "validTill",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "phoneArea",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phno",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "videoGrp",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "orgId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "otherInfo",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Post",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "addedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "updatedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "userMast",
+      "relationshipName": "approvedByUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "organisation",
+      "relationshipName": "orgIdObj",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "postID",
+      "otherEntityName": "rating",
+      "otherEntityRelationshipName": "rapostIdObj",
+      "relationshipName": "ratpost",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "postID",
+      "otherEntityName": "remarks",
+      "otherEntityRelationshipName": "repostIdObj",
+      "relationshipName": "rempost",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "postID",
+      "otherEntityName": "comment",
+      "otherEntityRelationshipName": "copostIdObj",
+      "relationshipName": "compost",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "postPics",
+      "otherEntityRelationshipName": "postObj",
+      "relationshipName": "id",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "elasticsearch",
+  "service": "serviceClass"
+}

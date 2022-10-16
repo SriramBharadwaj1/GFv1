@@ -1,0 +1,43 @@
+{
+  "groupfaceApp": {
+    "autoPostAprvlUsrs": {
+      "home": {
+        "title": "Auto Post Aprvl Usrs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Auto Post Aprvl Usrs",
+        "createOrEditLabel": "Create or edit a Auto Post Aprvl Usrs",
+        "search": "Search for Auto Post Aprvl Usrs",
+        "notFound": "No Auto Post Aprvl Usrs found"
+      },
+      "created": "A new Auto Post Aprvl Usrs is created with identifier {{ param }}",
+      "updated": "A Auto Post Aprvl Usrs is updated with identifier {{ param }}",
+      "deleted": "A Auto Post Aprvl Usrs is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Auto Post Aprvl Usrs {{ id }}?"
+      },
+      "detail": {
+        "title": "Auto Post Aprvl Usrs"
+      },
+      "id": "Id",
+      "apUserId": "Ap User Id",
+      "tableKy": "Table Ky",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "orgId": "Org Id",
+      "extraFields": "Extra Fields",
+      "user": "User",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

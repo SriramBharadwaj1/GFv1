@@ -1,0 +1,41 @@
+{
+  "groupfaceApp": {
+    "rating": {
+      "home": {
+        "title": "Ratings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Rating बनाएँ",
+        "createOrEditLabel": "Rating बनाएँ या संपादित करें",
+        "search": "Rating खोजें",
+        "notFound": "No Ratings found"
+      },
+      "created": "एक नया Rating [identifier: {{ param }}] तैयार है",
+      "updated": "एक Rating [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Rating [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Rating [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Rating"
+      },
+      "id": "Id",
+      "rating": "Rating",
+      "postId": "Post Id",
+      "isActive": "Is Active",
+      "apprRejReason": "Appr Rej Reason",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "orgId": "Org Id",
+      "approvedOn": "Approved On",
+      "rapostIdObj": "Rapost Id Obj",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

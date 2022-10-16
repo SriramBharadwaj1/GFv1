@@ -1,0 +1,40 @@
+{
+  "groupfaceApp": {
+    "userActivity": {
+      "home": {
+        "title": "User Activities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త User Activity  సృష్టించండి",
+        "createOrEditLabel": "User Activity సృష్టించండి లేదా సవరించండి",
+        "search": "User Activity కొరకు శోధించండి",
+        "notFound": "No User Activities found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త User Activity సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త User Activity సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త User Activity తొలగించబడినది",
+      "delete": {
+        "question": "మీరు User Activity {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "User Activity"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "loggedon": "Loggedon",
+      "activeduration": "Activeduration",
+      "ipAdr": "Ip Adr",
+      "usrLocation": "Usr Location",
+      "lat": "Lat",
+      "longi": "Longi",
+      "pin": "Pin",
+      "addedBy": "Added By",
+      "orgId": "Org Id",
+      "addedOn": "Added On",
+      "addedByUser": "Added By User",
+      "userObj": "User Obj",
+      "addedByUseract": "Added By Useract",
+      "orgIdObj": "Org Id Obj",
+      "useractObj": "Useract Obj"
+    }
+  }
+}

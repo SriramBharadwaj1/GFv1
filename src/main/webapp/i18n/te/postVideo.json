@@ -1,0 +1,45 @@
+{
+  "groupfaceApp": {
+    "postVideo": {
+      "home": {
+        "title": "Post Videos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "కొత్త Post Video  సృష్టించండి",
+        "createOrEditLabel": "Post Video సృష్టించండి లేదా సవరించండి",
+        "search": "Post Video కొరకు శోధించండి",
+        "notFound": "No Post Videos found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Post Video సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Post Video సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Post Video తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Post Video {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Post Video"
+      },
+      "id": "Id",
+      "postid": "Postid",
+      "video": "Video",
+      "videopath": "Videopath",
+      "isActive": "Is Active",
+      "isEnable": "Is Enable",
+      "addedBy": "Added By",
+      "addedOn": "Added On",
+      "updatedBy": "Updated By",
+      "updatedOn": "Updated On",
+      "approvedBy": "Approved By",
+      "approvedOn": "Approved On",
+      "comments": "Comments",
+      "remarks": "Remarks",
+      "primVideo": "Prim Video",
+      "orgId": "Org Id",
+      "status": "Status",
+      "addedByUser": "Added By User",
+      "updatedByUser": "Updated By User",
+      "approvedByUser": "Approved By User",
+      "postidObj": "Postid Obj",
+      "orgIdObj": "Org Id Obj"
+    }
+  }
+}

@@ -1,0 +1,591 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName groupface	
+    blueprints [generator-jhipster-scripts]
+    buildTool maven
+    cacheProvider redis
+    clientFramework react
+    clientPackageManager npm
+    clientTheme none
+    creationTimestamp 1660511390551
+    databaseType sql
+    devDatabaseType postgresql
+    dtoSuffix DTO
+    enableHibernateCache true
+    enableSwaggerCodegen true
+    enableTranslation true
+    jhiPrefix lap
+    jhipsterVersion "7.9.2"
+    jwtSecretKey "YzYyOTgwNTdlYWZjMzk0ODg4ZTcyZjEwMWFhMzI2Y2UxN2IzMjgyZjA1OGQwY2UxYTcxNGYxZWY5YmE4MzRiZTQ1N2EzZmM5ODY3NDdjN2M1ZTFkMjQyY2RmM2YzZWY3YTI4MjRmOTRkYmZlZGUzMzgyYjI5NGY5MTI0MmNjMWU="
+    languages [en, hi, te]
+    nativeLanguage en
+    packageName com.laptechnos.groupface
+    prodDatabaseType postgresql
+    reactive false
+    searchEngine elasticsearch
+    serverPort 9218
+    serviceDiscoveryType eureka
+    skipUserManagement false
+    testFrameworks [cucumber]
+    websocket spring-websocket
+  }
+	entities *
+	dto * with mapstruct
+	paginate * with pagination except Post, Comment, Remarks
+	use infinite-scroll for Post, Comment, Remarks
+	service * with serviceClass
+	search Post, Comment, Rating with elasticsearch
+}
+entity	Organisation(organisation) {
+	  @id id Long,
+	  code String,
+	  name String,
+	  type Integer,
+	  parentOrgId Long,
+	  primaryContactId Long,
+	  orgHead Long,
+	  locationId Long,
+	  website String,
+	  layout String,
+	  tableKy Integer,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+	  extraFields String,
+	  buildFilePath String,
+	  shortName String,
+	  vatNo String,
+	  moduleKy Integer,
+	  HashCode String,
+	  hashCertificate String
+	}
+
+entity	OrgDetails(orgDetails){
+	  @id id Long,
+	  orgId Long,
+	  name String,
+	  type Integer,
+	  keyName String,
+	  keyValue String,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  extraFields String
+	  }
+
+entity	UserMast(usermaster){
+	  @id id Long,
+	  userId String,
+	  userType Integer,
+	  name String,
+	  lastname String,
+	  isActive String,
+	  activatedBy String,
+	  activatedOn LocalDate,
+	  dob LocalDate,
+	  gender String,
+	  phoneArea String,
+	  phno String,
+	  email1 String,
+	  email2 String,
+	  requestDt LocalDate,
+	  caste Long,
+	  subCaste Long,
+	  validID String,
+	  validIDType Integer,
+	  validIDNo String,	  
+	  validValidTill LocalDate,
+	  refferedBy Integer,
+	  relationwith Integer,
+	  relationType Integer,
+	  issuingCountry Integer,
+	  status Integer,
+	  comment String,	  
+	  otherInfo String,	  
+	  allergicDrug1 String,
+	  moduleKy Integer,
+	  tableKy Integer,
+	  allergicDrug2 String,
+	  comments String,
+	  remarks String,
+	  extraFields String,
+	  column1 String,
+	  column2 Integer,
+	  column3 String,
+	  hobbies String,
+	  otherActivities String,
+	  password String,
+	  role String,
+	  path Integer,
+	  roleType String,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  language Integer,
+	  hist Integer,
+	  layout String,
+	  securityKeyStatus String,
+	  hashCode String,
+	  encryptionStatus Integer,
+	  encryptedPassword String,
+	  zone String,
+      orgId Long,
+      hist String,
+	  language String,
+	  job String,
+      presentAddress Long,
+      permanentAddress Long,
+	  workcompany String,
+	  workAddress Long
+	  }
+	  
+entity  Address{
+	  @id id Long,
+      name String,
+	  addressType Integer,
+	  addressLn1 String,
+	  addressLn2 String,
+	  addressLn3 String,
+	  addressLn4 String,
+	  landmark String,
+	  village Long,
+	  city Long,
+	  district Long,
+	  state Long,  
+	  parentTableId Integer,
+	  parentModuleKy Integer,
+	  parentTableKy Integer,
+	  pin String,
+	  country Long,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Long,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+	  extraFields String,
+	  zone Long,
+	  orgId Long,
+	  hist Integer,
+	  column1 String
+	}
+	
+
+entity  Groups{
+	  @id id Long,
+	  name String,
+	  description String,
+	  activitysId Integer,
+	  groupType Integer,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Long,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+      orgId Long,
+     validFrom LocalDate,
+	  validTill LocalDate
+	}
+	
+entity  GroupUser{
+	  @id id Long,
+	  groupId Long,
+	  grpUser Long,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Long,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+      orgId Long,
+	  userType Long
+	}
+
+entity  Friends{
+	  @id id Long,
+	  userId Long,
+	  friendId Long,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+      orgId Long,
+     type Integer
+	}
+
+
+entity  PostPics{
+	  @id id Long,
+	  postid Long,
+	  pic String,
+	  picpath String,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Long,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+      orgId Long,
+     status Integer
+	}
+entity  PostVideo{
+	  @id id Long,
+	  postid Long,
+      video String,
+	  videopath String,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+	  primVideo Integer,
+      orgId Long,
+      status Integer
+	}
+
+entity  AutoPostAprvlUsrs {
+	  @id id Long,
+	  apUserId Long,
+	  tableKy Integer,
+	  isActive Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+      orgId Long,
+	  extraFields String
+	}
+
+entity  Masters {
+	  @id id Long,
+	  key Integer,
+	  val String,
+	  code Integer,
+	  codeval String,
+	  status Integer,
+      orgId Long
+     }
+	
+entity  Caste {
+	  @id id Long,
+	  code String,
+	  name String,
+	  desc String,
+	  parentId Long,
+	  ModeratorId Integer ,
+	  parentTableKy Integer,
+	  status Integer,
+	  zone Long,
+	  orgId Long,
+	  hist Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Long,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  otherinfo String,
+	  comments String,
+	  remarks String
+	}	
+	
+entity  Location {
+	  @id id Long,
+	  code String,
+	  name String,
+	  desc String,
+	  parentId Long,
+	  Moderator1Id Long,
+	  Moderator2Id Long,
+	  Moderator1Code String,
+	  Moderator2Code String,
+	  parentTableKy Long,	
+	  type Integer
+	  status Integer,
+	  zone Long,
+	  orgId Long,
+	  hist Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  otherinfo String,
+	  comments String,
+	  remarks String
+	}
+	
+entity  Post {
+	  @id id Long,
+	  message String,
+	  category Integer,
+	  categoryName String,
+	  meta String,
+	  tableKy Integer,
+	  isActive Integer,
+	  actRejReason Integer,  
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Long,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+	  type Integer,
+	  isSalesPost Integer,
+	  salesCategory Integer,
+	  price Double,
+	  validFrom LocalDate,
+	  validTill LocalDate,
+	  phoneArea String,
+	  Phno String, 
+	  videoGrp Long,
+      orgId Long,
+	  OtherInfo String
+	}
+
+
+entity  UserPostsViewed {
+	  @id id Long,
+	  userId Long,
+	  postid Long,
+	  viewdate LocalDate,
+	  status Integer,
+	  orgId Long
+	}
+entity  Comment {
+	  @id id Long,
+	  message String,
+	  category Integer,
+	  categoryName String,
+	  meta String,
+	  postId Long,
+	  isActive Integer,
+	  apprRejReason Integer,  
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+      orgId Long,
+	  OtherInfo String
+	}
+entity  Remarks {
+	  @id id Long,
+	  message String,
+	  category Integer,
+	  categoryName String,
+	  meta String,
+	  postId Long,
+	  isActive Integer,
+	  apprRejReason Integer,  
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Integer,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+	  approvedOn LocalDate,
+	  comments String,
+	  remarks String,
+       orgId Long,
+	  otherInfo String
+	}
+	
+entity  Rating {
+	  @id id Long,
+	  rating Double,
+	  postId Long,
+	  isActive Integer,
+	  apprRejReason Integer,  
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Long,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+       orgId Long,
+	  approvedOn LocalDate
+	}
+
+entity  Events {
+	  @id id Long,
+	  name String,
+	  userId Long,
+	  isActive Integer,
+	  apprRejReason Integer, 
+	  eventType Integer,
+	  isEnable Integer,
+	  addedBy Long,
+	  addedOn LocalDate,
+	  updatedBy Long,
+	  updatedOn LocalDate,
+	  approvedBy Long,
+      orgId Long,
+	  approvedOn LocalDate
+	}
+entity  UserActivity {
+	  @id id Long,
+	  userId Long,
+	  loggedon LocalDate,
+	  activeduration Double,
+	  ipAdr String,
+	  usrLocation String,
+	  lat Float ,
+	  longi Float	,
+	  pin String,
+	  addedBy Long,
+      orgId Long,
+	  addedOn LocalDate
+	}
+relationship OneToOne {
+	OrgDetails{orgIdObj(name)} to Organisation,
+}
+relationship ManyToOne {
+	    UserMast{orgIdObj(name)} to Organisation,
+		Address{orgIdObj(name)} to Organisation,
+		Address{approvedByObj(name)} to UserMast,
+		Rating {rapostIdObj(message)} to Post{ratpost(postID)},
+        Remarks {repostIdObj(message)} to Post{rempost(postID)},
+        Comment {copostIdObj(message)} to Post{compost(postID)},
+		Events {addedByUsr(name)} to UserMast,
+        Events {updatedByUsr(name)} to UserMast,
+        Events {approvedByUsr(name)} to UserMast,
+        Events {userIdUsr(name)} to UserMast,
+        Events {eventTypeObj(Codeval)} to Masters,
+        Events {orgIdObj(name)} to Organisation,
+		Address{addedByUser(name)} to UserMast,
+		Address{updatedByUser(name)} to UserMast,
+        UserActivity {addedByUser(name)} to UserMast,
+        UserActivity {userObj(name)} to UserMast,
+        Rating {addedByUser(name)} to UserMast,
+        Rating {updatedByUser(name)} to UserMast,
+        Rating {approvedByUser(name)} to UserMast,
+		Remarks {addedByUser(name)} to UserMast,
+        Remarks {updatedByUser(name)} to UserMast,
+        Remarks {approvedByUser(name)} to UserMast,
+        Comment {addedByUser(name)} to UserMast,
+        Comment {updatedByUser(name)} to UserMast,
+        Comment {approvedByUser(name)} to UserMast,
+        UserPostsViewed {userIdObj(name)} to UserMast,
+        Post {addedByUser(name)} to UserMast,
+        Post {updatedByUser(name)} to UserMast,
+        Post {approvedByUser(name)} to UserMast,
+        Location {addedByUser(name)} to UserMast,
+        Location {updatedByUser(name)} to UserMast,
+        Location {approvedByUser(name)} to UserMast,
+        Location {Moderator1IdUser(name)} to UserMast,
+        Location {Moderator2IdUser(name)} to UserMast,
+        Location {parentIdObj(name)} to Location,
+		Address{villageObj(name)} to Location,
+		Address{cityObj(name)} to Location,
+		Address{districtObj(name)} to Location,
+		Address{stateObj(name)}  to Location,
+		Address{countryObj(name)} to Location,			
+        Rating{orgIdObj(name)} to Organisation,
+        Remarks{orgIdObj(name)} to Organisation,
+        Comment{orgIdObj(name)} to Organisation,
+        UserPostsViewed{orgIdObj(name)} to Organisation,
+        Post{orgIdObj(name)} to Organisation,
+        Location{orgIdObj(name)} to Organisation,
+        Caste {addedByUser(name)} to UserMast,
+        Caste {updatedByUser(name)} to UserMast,
+        Caste {approvedByObj(name)} to UserMast,
+        Caste{parentIdObj(name)} to Caste{id (name)},
+        Caste{orgIdObj(name)} to Organisation,
+        AutoPostAprvlUsrs {user(name)} to UserMast,
+        AutoPostAprvlUsrs {addedByUser(name)} to UserMast,
+        AutoPostAprvlUsrs {updatedByUser(name)} to UserMast,
+        AutoPostAprvlUsrs {approvedByUser(name)} to UserMast,
+		AutoPostAprvlUsrs{orgIdObj(name)} to Organisation,
+        Masters {addedByUser(name)} to UserMast,
+        Masters {updatedByUser(name)} to UserMast,
+        Masters {approvedByUser(name)} to UserMast,
+        Masters{orgIdObj(name)} to Organisation,
+        PostVideo {addedByUser(name)} to UserMast,
+        PostVideo {updatedByUser(name)} to UserMast,
+        PostVideo {approvedByUser(name)} to UserMast,
+        PostVideo {postidObj(message)} to Post,
+        PostVideo{orgIdObj(name)} to Organisation,
+        PostPics {addedByUser(name)} to UserMast,
+        PostPics {updatedByUser(name)} to UserMast,
+        PostPics {approvedByUser(name)} to UserMast,
+        PostPics {postObj(message)} to Post{id (name)},
+        PostPics{orgIdObj(name)} to Organisation,
+        GroupUser {addedByUser(name)} to UserMast,
+        GroupUser {updatedByUser(name)} to UserMast,
+        GroupUser {approvedByUser(name)} to UserMast,
+        GroupUser {groupIdObj(name)} to Groups,
+        GroupUser {grpUserObj(name)} to UserMast,
+        GroupUser {userTypeObj(codeval)} to Masters,
+        GroupUser {orgIdOb(name)} to Organisation,
+        Groups {addedByUser(name)} to UserMast,
+        Groups {updatedByUser(name)} to UserMast,
+        Groups {approvedByser(name)} to UserMast,
+        Groups{orgIdObj(name)} to Organisation,
+        Friends {addedByUser(name)} to UserMast,
+        Friends {updatedByUser(name)} to UserMast,
+        Friends {approvedByUser(name)} to UserMast,
+        Friends {userIdObj(name)} to UserMast,
+        Friends {friendIdObj(name)} to UserMast,
+        Friends{orgIdObj(name)} to Organisation,
+        UserActivity {addedByUseract(name)} to UserMast,
+		UserActivity{orgIdObj(name)} to Organisation,		
+        UserActivity {useractObj(name)} to UserMast
+	}
